@@ -12,4 +12,4 @@
 
 - Save performance records (timestamped) on local file, could be csv
 - Able to specified a tag to group the metrics (based on connection type or location)
-- Able to detect network changes and prompt user to update tags
+- Able to detect network changes and prompt user to update tags (https://developer.mozilla.org/en-US/docs/Web/API/NetworkInformation/type)
