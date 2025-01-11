@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "es5",                 // Target ECMAScript 5 for compatibility
+      "module": "es6",                 // Use ES6 modules
+      "moduleResolution": "node",      // Set module resolution to node
+      "strict": true,                  // Enable all strict type-checking options
+      "esModuleInterop": true,         // Allows importing of CommonJS modules
+      "skipLibCheck": true,            // Skip type-checking of declaration files
+      "resolveJsonModule": true,       // Allow importing JSON files
+      "outDir": "./dist",              // Output folder for compiled files
+    },
+    "include": [
+      "src/**/*"  // Include all files in the `src` folder
+    ]
+  }
+  
